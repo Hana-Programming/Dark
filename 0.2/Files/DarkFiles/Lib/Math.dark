@@ -1,0 +1,16 @@
+block Square(int x)
+[
+    x *= x;
+    return x;
+]
+
+block XPowerY(int x, int y)
+[
+    int z = 0; z = x;
+    y -= 1;
+    repeat(y)
+    [
+        z *= x;
+    ]
+    return z;
+]

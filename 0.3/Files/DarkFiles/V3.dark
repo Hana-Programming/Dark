@@ -1,0 +1,25 @@
+include Lib/Math.dark
+
+server IO
+{
+    block Debug(int i)
+    [
+        printS("Debug: ");
+        printILine(i);
+    ]
+}
+
+block Main()
+[
+    int x;
+    x = XtimesY(1,3);
+
+    switch(x)
+    [
+        case(15)[IO?Debug(x);break;]
+        case(3)[printSLine("Baby a Triple!");break;]
+    ]
+
+    printS("X Times 5 is: ");
+    x >> Xtimes5 >> printILine;
+]

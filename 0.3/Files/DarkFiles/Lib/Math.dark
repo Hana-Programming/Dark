@@ -1,0 +1,11 @@
+block Xtimes5(int x)
+[
+    x *= 5;
+    return x;
+]
+
+block XtimesY(int x, int y)
+[
+    x *= y;
+    return x;
+]

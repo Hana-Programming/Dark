@@ -1,0 +1,8 @@
+include Lib/Math.dark
+include Lib/Console.dark
+
+
+block Main()
+[
+    
+]
