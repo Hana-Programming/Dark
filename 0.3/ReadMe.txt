@@ -14,5 +14,5 @@ Guide:
 
 
 Notes:
-    >You can also Run the Compiler and Assembler seperate (Compiler v0.2.exe + assembler.bat)
+    >You can also Run the Compiler and Assembler seperate (Compiler v0.3.exe + assembler.bat)
     >The Run_Path of the the Compiler is "/Files/Dark/" + fileName so you can also categorize your Files in Folders (Example: "Dark.bat MyGame/Main.dark" or "include MyGame/Enemy.dark")
